@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const userIds = [
+const asrithaparuchuri2005 = [
   new mongoose.Types.ObjectId(),
   new mongoose.Types.ObjectId(),
   new mongoose.Types.ObjectId(),
@@ -13,7 +13,7 @@ const userIds = [
 
 export const users = [
   {
-    _id: userIds[0],
+    _id: asrithaparuchuri2005[0],
     firstName: "test",
     lastName: "me",
     email: "aaaaaaa@gmail.com",
@@ -29,7 +29,7 @@ export const users = [
     __v: 0,
   },
   {
-    _id: userIds[1],
+    _id: asrithaparuchuri2005[1],
     firstName: "Steve",
     lastName: "Ralph",
     email: "thataaa@gmail.com",
@@ -45,7 +45,7 @@ export const users = [
     __v: 0,
   },
   {
-    _id: userIds[2],
+    _id: asrithaparuchuri2005[2],
     firstName: "Some",
     lastName: "Guy",
     email: "someguy@gmail.com",
@@ -61,7 +61,7 @@ export const users = [
     __v: 0,
   },
   {
-    _id: userIds[3],
+    _id: asrithaparuchuri2005[3],
     firstName: "Whatcha",
     lastName: "Doing",
     email: "whatchadoing@gmail.com",
@@ -77,7 +77,7 @@ export const users = [
     __v: 0,
   },
   {
-    _id: userIds[4],
+    _id: asrithaparuchuri2005[4],
     firstName: "Jane",
     lastName: "Doe",
     email: "janedoe@gmail.com",
@@ -93,7 +93,7 @@ export const users = [
     __v: 0,
   },
   {
-    _id: userIds[5],
+    _id: asrithaparuchuri2005[5],
     firstName: "Harvey",
     lastName: "Dunn",
     email: "harveydunn@gmail.com",
@@ -109,7 +109,7 @@ export const users = [
     __v: 0,
   },
   {
-    _id: userIds[6],
+    _id: asrithaparuchuri2005[6],
     firstName: "Carly",
     lastName: "Vowel",
     email: "carlyvowel@gmail.com",
@@ -125,7 +125,7 @@ export const users = [
     __v: 0,
   },
   {
-    _id: userIds[7],
+    _id: asrithaparuchuri2005[7],
     firstName: "Jessica",
     lastName: "Dunn",
     email: "jessicadunn@gmail.com",
@@ -145,7 +145,7 @@ export const users = [
 export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
-    userId: userIds[1],
+    userId: asrithaparuchuri2005[1],
     firstName: "Steve",
     lastName: "Ralph",
     location: "New York, CA",
@@ -153,10 +153,10 @@ export const posts = [
     picturePath: "post1.jpeg",
     userPicturePath: "p3.jpeg",
     likes: new Map([
-      [userIds[0], true],
-      [userIds[2], true],
-      [userIds[3], true],
-      [userIds[4], true],
+      [asrithaparuchuri2005[0], true],
+      [asrithaparuchuri2005[2], true],
+      [asrithaparuchuri2005[3], true],
+      [asrithaparuchuri2005[4], true],
     ]),
     comments: [
       "random comment",
@@ -166,7 +166,7 @@ export const posts = [
   },
   {
     _id: new mongoose.Types.ObjectId(),
-    userId: userIds[3],
+    userId: asrithaparuchuri2005[3],
     firstName: "Whatcha",
     lastName: "Doing",
     location: "Korea, CA",
@@ -175,10 +175,10 @@ export const posts = [
     picturePath: "post2.jpeg",
     userPicturePath: "p6.jpeg",
     likes: new Map([
-      [userIds[7], true],
-      [userIds[4], true],
-      [userIds[1], true],
-      [userIds[2], true],
+      [asrithaparuchuri2005[7], true],
+      [asrithaparuchuri2005[4], true],
+      [asrithaparuchuri2005[1], true],
+      [asrithaparuchuri2005[2], true],
     ]),
     comments: [
       "one more random comment",
@@ -189,7 +189,7 @@ export const posts = [
   },
   {
     _id: new mongoose.Types.ObjectId(),
-    userId: userIds[4],
+    userId: asrithaparuchuri2005[4],
     firstName: "Jane",
     lastName: "Doe",
     location: "Utah, CA",
@@ -198,10 +198,10 @@ export const posts = [
     picturePath: "post3.jpeg",
     userPicturePath: "p5.jpeg",
     likes: new Map([
-      [userIds[1], true],
-      [userIds[6], true],
-      [userIds[3], true],
-      [userIds[5], true],
+      [asrithaparuchuri2005[1], true],
+      [asrithaparuchuri2005[6], true],
+      [asrithaparuchuri2005[3], true],
+      [asrithaparuchuri2005[5], true],
     ]),
     comments: [
       "one more random comment",
@@ -213,7 +213,7 @@ export const posts = [
   },
   {
     _id: new mongoose.Types.ObjectId(),
-    userId: userIds[5],
+    userId:asrithaparuchuri2005[5],
     firstName: "Harvey",
     lastName: "Dunn",
     location: "Los Angeles, CA",
@@ -222,9 +222,9 @@ export const posts = [
     picturePath: "post4.jpeg",
     userPicturePath: "p7.jpeg",
     likes: new Map([
-      [userIds[1], true],
-      [userIds[6], true],
-      [userIds[3], true],
+      [asrithaparuchuri2005[1], true],
+      [asrithaparuchuri2005[6], true],
+      [asrithaparuchuri2005[3], true],
     ]),
     comments: [
       "I lied again, one more random comment",
@@ -237,7 +237,7 @@ export const posts = [
   },
   {
     _id: new mongoose.Types.ObjectId(),
-    userId: userIds[6],
+    userId:asrithaparuchuri2005[6],
     firstName: "Carly",
     lastName: "Vowel",
     location: "Chicago, IL",
@@ -246,10 +246,10 @@ export const posts = [
     picturePath: "post5.jpeg",
     userPicturePath: "p8.jpeg",
     likes: new Map([
-      [userIds[1], true],
-      [userIds[3], true],
-      [userIds[5], true],
-      [userIds[7], true],
+      [asrithaparuchuri2005[1], true],
+      [asrithaparuchuri2005[3], true],
+      [asrithaparuchuri2005[5], true],
+      [asrithaparuchuri2005[7], true],
     ]),
     comments: [
       "I lied again, one more random comment",
@@ -261,7 +261,7 @@ export const posts = [
   },
   {
     _id: new mongoose.Types.ObjectId(),
-    userId: userIds[7],
+    userId: asrithaparuchuri2005[7],
     firstName: "Jessica",
     lastName: "Dunn",
     location: "Washington, DC",
@@ -270,8 +270,8 @@ export const posts = [
     picturePath: "post6.jpeg",
     userPicturePath: "p9.jpeg",
     likes: new Map([
-      [userIds[1], true],
-      [userIds[2], true],
+      [asrithaparuchuri2005[1], true],
+      [asrithaparuchuri2005[2], true],
     ]),
 
     comments: [
